@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Валиев Мурат</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="container">
+        <h1>Список задач</h1>
+    </header>
+
+    <main class="container">
+        <section class="task-form">
+            <h2>Новая задача</h2>
+            <div class="input-group">
+                <input type="text" placeholder="Название задачи...">
+                <button>+ Добавить</button>
+            </div>
+        </section>
+
+        <section class="task-board">
+            <div class="backlog">
+                <h3>Бэклог</h3>
+                <ul>
+                    <li class="task">Выучить JS</li>
+                    <li class="task">Выучить React</li>
+                    <li class="task">Сделать домашку</li>
+                </ul>
+            </div>
+
+            <div class="in-progress">
+                <h3>В процессе</h3>
+                <ul>
+                    <li class="task">Выпить соку</li>
+                    <li class="task">Попить воды</li>
+                </ul>
+            </div>
+
+            <div class="done">
+                <h3>Готово</h3>
+                <ul>
+                    <li class="task">Позвонить маме</li>
+                    <li class="task">Погладить кота</li>
+                </ul>
+            </div>
+
+            <div class="basket">
+                <h3>Корзина</h3>
+                <ul>
+                    <li class="task">Сходить погулять</li>
+                    <li class="task">Прочитать Войну и Мир</li>
+                </ul>
+                <button class="delate-btn">✖ Очистить</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

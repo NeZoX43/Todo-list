@@ -1,46 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Алмаев Раиль Амирович </title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Валиев Мурат</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <header class="header-section">
-        <h1 class="main-title">Список задач</h1>
-    </header>
-    <section class="form-section">
-        <form class="task-form">
-            <h2 class="form-title">Новая задача</h2>
-            <input class="task-input" placeholder="Название задачи..." type="text">
-            <button class="add-task-btn" id="addTaskBtn">+ Добавить</button>
-        </form>
-    </section>
-    <section class="tasks-section">
-        <ul class="task-category pending">
-            <h3 class="category-title">Бэклог</h3>
-            <li class="task-item">Выучить JS</li>
-            <li class="task-item">Выучить React</li>
-            <li class="task-item">Сделать домашку</li>
-        </ul>
-        <ul class="task-category in-progress">
-            <h3 class="category-title">В процессе</h3>
-            <li class="task-item">Выпить смузи</li>
-            <li class="task-item">Попить воды</li>
-        </ul>
-        <ul class="task-category completed">
-            <h3 class="category-title">Готово</h3>
-            <li class="task-item">Позвонить маме</li>
-            <li class="task-item">Погладить кота</li>
-        </ul>
-        <ul class="task-category discarded">
-            <h3 class="category-title">Корзина</h3>
-            <li class="task-item">Сходить погулять</li>
-            <li class="task-item">Прочитать Войну и Мир</li>
-            <button class="clear-btn" id="clearTasksBtn">x Очистить</button>
-        </ul>
-    </section>
+
+<body class="board-app">
+
+    <script src="src/main.js" type="module"></script>
 </body>
+
 </html>
