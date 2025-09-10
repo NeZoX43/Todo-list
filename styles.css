@@ -1,0 +1,146 @@
+body {
+	font-family: "Arial", sans-serif;
+	background-color: #e0ffff;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	align-items: flex-start;
+	background-color: #007bff;
+	color: white;
+	padding: 15px;
+	font-size: 22px;
+}
+header h1 {
+	margin: 10px;
+}
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+main {
+	padding: 25px;
+}
+
+.newTask {
+	background: white;
+	padding: 30px;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	width: 380px;
+	text-align: left;
+}
+
+.task-title {
+	margin: 0;
+	padding-bottom: 8px;
+	font-size: 30px;
+	font-family: "Arial";
+}
+
+.task-input {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.task-input input {
+	flex-grow: 1;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 15px;
+}
+
+.task-input button {
+	background: #357edd;
+	color: white;
+	border: none;
+	padding: 10px 16px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 18px;
+	border-radius: 6px;
+	font-weight: bold;
+}
+
+.plus-icon {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.blocks {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	flex-wrap: wrap;
+	width: 100%;
+	padding: 0px;
+	font-size: 22px;
+}
+
+.block {
+	flex: 1;
+	min-width: 250px;
+	padding: 20px;
+	border-radius: 8px;
+	text-align: left;
+}
+
+.block h1 {
+	font-size: 18px;
+	text-align: left;
+	color: white;
+	margin-bottom: 1px;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 6px;
+}
+.text-title1 {
+	background: rgb(193, 180, 180);
+}
+
+.text-title2 {
+	background: rgb(71, 128, 190);
+}
+
+.text-title3 {
+	background: rgb(144, 236, 95);
+}
+
+.text-title4 {
+	background: rgb(140, 48, 48);
+}
+
+.text-li {
+	background: white;
+	padding: 15px;
+	border-radius: 6px;
+	margin: 5px auto;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	list-style: none;
+}
+
+button.clear-btn {
+	background: #c93d3d;
+	color: white;
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 6px;
+	cursor: pointer;
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	content: none;
+}
+
+ul {
+	padding: 0;
+}

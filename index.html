@@ -1,16 +1,57 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Алмаев Раиль</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-
-<body class="board-app">
-
-    <script src="src/main.js" type="module"></script>
-</body>
-
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Антон Жикин</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Список задач</h1>
+		</header>
+		<main>
+			<form class="newTask">
+				<p class="task-title">Новая задача</p>
+				<div class="task-input">
+					<input type="text" placeholder="Название задачи..." />
+					<button type="submit">
+						<span class="plus-icon">+</span> Добавить
+					</button>
+				</div>
+			</form>
+			<div class="blocks">
+				<section class="block">
+					<h1 class="text-title1">Бэклог</h1>
+					<ul>
+						<li class="text-li">Выучить JS</li>
+						<li class="text-li">Выучить React</li>
+						<li class="text-li">Сделать домашку</li>
+					</ul>
+				</section>
+				<section class="block">
+					<h1 class="text-title2">В процессе</h1>
+					<ul>
+						<li class="text-li">Выпить смузи</li>
+						<li class="text-li">Попить воды</li>
+					</ul>
+				</section>
+				<section class="block">
+					<h1 class="text-title3">Готово</h1>
+					<ul>
+						<li class="text-li">Позвонить маме</li>
+						<li class="text-li">Погладить кота</li>
+					</ul>
+				</section>
+				<section class="block">
+					<h1 class="text-title4">Корзина</h1>
+					<ul>
+						<li class="text-li">Сходить погулять</li>
+						<li class="text-li">Прочитать "Войну и Мир"</li>
+					</ul>
+					<button class="clear-btn">❌ Очистить</button>
+				</section>
+			</div>
+		</main>
+	</body>
 </html>
